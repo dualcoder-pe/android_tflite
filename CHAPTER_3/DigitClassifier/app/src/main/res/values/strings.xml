@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DigitClassifier</string>
+    <string name="hello_world">hello world!</string>
+</resources>

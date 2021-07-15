@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입력 :"
+            android:layout_gravity="center_vertical"/>
+
+        <EditText
+            android:id="@+id/input_Et"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="입력하세요" />
+
+        <Button
+            android:id="@+id/input_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입력"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="출력 :" />
+
+        <TextView
+            android:id="@+id/output_Tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="값"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activity_launch_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="액티비티 실행" />
+
+    <Button
+        android:id="@+id/draw_sample_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="그림판 예제" />
+
+    <Button
+        android:id="@+id/draw_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="그림판" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+/ILSVRC2012_img_val
+*.tflite
+/백업
+./.idea
+./.ipynb_checkpoints

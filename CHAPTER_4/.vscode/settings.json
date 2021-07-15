@@ -1,0 +1,5 @@
+{
+    "python.linting.enabled": true,
+    "jupyter.jupyterServerType": "local",
+    "python.pythonPath": "C:\\Users\\lswsj\\anaconda3\\envs\\tf2_gpu\\python.exe"
+}

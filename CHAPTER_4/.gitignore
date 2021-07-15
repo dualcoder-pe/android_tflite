@@ -1,0 +1,9 @@
+*.tflite
+./efficientnet
+./efficientnet_tfhub
+./.idea
+./.ipynb_checkpoints
+./.vscode
+./mlp_model
+./mobilenet
+./test.py
